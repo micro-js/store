@@ -2,7 +2,7 @@
   "name": "@f/store",
   "description": "An observable store.",
   "repository": "git://github.com/micro-js/store.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
