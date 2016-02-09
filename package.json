@@ -1,0 +1,22 @@
+{
+  "name": "@f/store",
+  "description": "An observable store.",
+  "repository": "git://github.com/micro-js/store.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/is-function": "^1.1.1",
+    "@f/is-object": "^1.1.4",
+    "@f/is-undefined": "^1.1.1",
+    "@f/observable": "^1.1.0"
+  },
+  "devDependencies": {
+    "@f/combine-reducers": "^1.2.0",
+    "@f/identity": "^1.1.1",
+    "tape": "^4.2.2"
+  }
+}
